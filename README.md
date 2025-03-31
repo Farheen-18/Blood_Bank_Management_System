@@ -124,13 +124,13 @@ graph TD;
 ## Screenshots
 
 ### Login Page
-![Login Page](screenshots/login.png)
+![Login Page](IMG-20250331-WA0015.png)
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](IMG-20250331-WA0020.png)
 
 ### Blood Request Form
-![Blood Request Form](screenshots/blood_request.png)
+![Blood Request Form](IMG-20250331-WA0021.png)
 
 ## Technologies Used
 
@@ -138,4 +138,9 @@ graph TD;
 - **MySQL**: Database management system.
 - **Bootstrap**: Front-end framework for styling.
 - **Apache**: Web server.
+
+---
+
+Enjoy using BBMS and feel free to contribute to its development!
+
 
