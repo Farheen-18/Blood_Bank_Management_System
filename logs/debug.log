@@ -1,0 +1,56 @@
+[2025-03-31 09:28:10] Login process started
+[2025-03-31 09:28:10] Login attempt - Username: admin, Password length: 4
+[2025-03-31 09:28:10] Checking database connection
+[2025-03-31 09:28:10] Database connection successful. Admin count: 2
+[2025-03-31 09:28:10] Checking credentials for username: admin
+[2025-03-31 09:28:10] Using hardcoded credentials match
+[2025-03-31 09:28:10] Authentication successful for user: admin
+[2025-03-31 09:28:10] Login successful. Setting session and redirecting
+[2025-03-31 09:29:54] Login process started
+[2025-03-31 09:29:54] Login attempt - Username: admin, Password length: 4
+[2025-03-31 09:29:54] Checking database connection
+[2025-03-31 09:29:54] Database connection successful. Admin count: 2
+[2025-03-31 09:29:54] Checking credentials for username: admin
+[2025-03-31 09:29:54] Using hardcoded credentials match
+[2025-03-31 09:29:54] Authentication successful for user: admin
+[2025-03-31 09:29:54] Login successful. Setting session and redirecting
+[2025-03-31 15:51:56] Login process started
+[2025-03-31 15:51:56] Login attempt - Username: admin, Password length: 4
+[2025-03-31 15:51:56] Checking database connection
+[2025-03-31 15:51:56] Database connection successful. Admin count: 2
+[2025-03-31 15:51:56] Checking credentials for username: admin
+[2025-03-31 15:51:56] Using hardcoded credentials match
+[2025-03-31 15:51:56] Authentication successful for user: admin
+[2025-03-31 15:51:56] Login successful. Setting session and redirecting
+[2025-03-31 16:11:01] Login process started
+[2025-03-31 16:11:01] Login attempt - Username: admin, Password length: 4
+[2025-03-31 16:11:01] Checking database connection
+[2025-03-31 16:11:01] Database connection successful. Admin count: 2
+[2025-03-31 16:11:01] Checking credentials for username: admin
+[2025-03-31 16:11:01] Using hardcoded credentials match
+[2025-03-31 16:11:01] Authentication successful for user: admin
+[2025-03-31 16:11:01] Login successful. Setting session and redirecting
+[2025-03-31 16:12:50] Login process started
+[2025-03-31 16:12:50] Login attempt - Username: admin, Password length: 4
+[2025-03-31 16:12:50] Checking database connection
+[2025-03-31 16:12:50] Database connection successful. Admin count: 2
+[2025-03-31 16:12:50] Checking credentials for username: admin
+[2025-03-31 16:12:50] Using hardcoded credentials match
+[2025-03-31 16:12:50] Authentication successful for user: admin
+[2025-03-31 16:12:50] Login successful. Setting session and redirecting
+[2025-03-31 16:14:57] Login process started
+[2025-03-31 16:14:57] Login attempt - Username: admin, Password length: 4
+[2025-03-31 16:14:57] Checking database connection
+[2025-03-31 16:14:57] Database connection successful. Admin count: 2
+[2025-03-31 16:14:57] Checking credentials for username: admin
+[2025-03-31 16:14:57] Using hardcoded credentials match
+[2025-03-31 16:14:57] Authentication successful for user: admin
+[2025-03-31 16:14:57] Login successful. Setting session and redirecting
+[2025-03-31 16:27:52] Login process started
+[2025-03-31 16:27:52] Login attempt - Username: admin, Password length: 4
+[2025-03-31 16:27:52] Checking database connection
+[2025-03-31 16:27:52] Database connection successful. Admin count: 2
+[2025-03-31 16:27:52] Checking credentials for username: admin
+[2025-03-31 16:27:52] Using hardcoded credentials match
+[2025-03-31 16:27:52] Authentication successful for user: admin
+[2025-03-31 16:27:52] Login successful. Setting session and redirecting
