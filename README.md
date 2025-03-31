@@ -130,7 +130,7 @@ graph TD;
 ![Dashboard](https://github.com/Farheen-18/Blood_Bank_Management_System/blob/main/images/IMG-20250331-WA0020.jpg)
 
 ### Blood Request Form
-![Blood Request Form](IMG-20250331-WA0021.jpg)
+![Blood Request Form](https://github.com/Farheen-18/Blood_Bank_Management_System/blob/main/images/IMG-20250331-WA0021.jpg)
 
 ## Technologies Used
 
