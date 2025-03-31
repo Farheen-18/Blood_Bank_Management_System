@@ -141,6 +141,5 @@ graph TD;
 
 ---
 
-Enjoy using BBMS and feel free to contribute to its development!
 
 
