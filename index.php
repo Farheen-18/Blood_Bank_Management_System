@@ -109,8 +109,7 @@
 
     <!-- Footer -->
     <footer class="footer">
-        &copy; <a href="https://www.linkedin.com/in/maithili-kolasani-03a9ba315" target="_blank" aria-label="Visit Maithili's LinkedIn profile">Maithili Kolasani</a> 
-        and 
+        &copy;
         <a href="https://github.com/Farheen-18/Blood_Bank_Management_System/tree/main" target="_blank" aria-label="Visit Blood Bank Management System repository">Team</a>
     </footer>
 
