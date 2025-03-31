@@ -124,13 +124,13 @@ graph TD;
 ## Screenshots
 
 ### Login Page
-![Login Page](IMG-20250331-WA0015.png)
+![Login Page](IMG-20250331-WA0015.jpg)
 
 ### Dashboard
-![Dashboard](IMG-20250331-WA0020.png)
+![Dashboard](IMG-20250331-WA0020.jpg)
 
 ### Blood Request Form
-![Blood Request Form](IMG-20250331-WA0021.png)
+![Blood Request Form](IMG-20250331-WA0021.jpg)
 
 ## Technologies Used
 
