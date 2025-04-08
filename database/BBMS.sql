@@ -55,8 +55,8 @@ CREATE TABLE `blood` (
 -- Dumping data for table `blood`
 --
 
--- INSERT INTO `blood` (`id`, `AP`, `AN`, `BP`, `BN`, `ABP`, `ABN`, `OP`, `ON`) VALUES
--- (1, 0, 0, 0, 0, 0, 0, 0, 0);
+INSERT INTO `blood` (`id`, `AP`, `AN`, `BP`, `BN`, `ABP`, `ABN`, `OP`, `ON`) VALUES
+(1, 0, 0, 0, 0, 0, 0, 0, 0);
 -- --------------------------------------------------------
 
 --
