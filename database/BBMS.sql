@@ -29,9 +29,9 @@ CREATE TABLE `admin` (
 -- Dumping data for table `admin`
 --
 
-INSERT INTO `admin` (`id`, `name`, `username`, `email`, `pwd`) VALUES
-(1, 'Main Admin', 'admin', 'admin@bbms.com', '$2y$10$Tx4W5Nk4W5UZ7AvogWq.3u6QdM5j2cJZ4oGf1VzB7kLb0dD5X1vL2'), -- Password: "test"
-(2, 'Hospital Staff', 'staff', 'staff@bbms.com', '$2y$10$Tx4W5Nk4W5UZ7AvogWq.3u6QdM5j2cJZ4oGf1VzB7kLb0dD5X1vL2'); -- Password: "test"
+ INSERT INTO `admin` (`id`, `name`, `username`, `email`, `pwd`) VALUES
+ (1, 'Main Admin', 'admin', 'admin@bbms.com', '$2y$10$Tx4W5Nk4W5UZ7AvogWq.3u6QdM5j2cJZ4oGf1VzB7kLb0dD5X1vL2'), -- Password: "test"
+ (2, 'Hospital Staff', 'staff', 'staff@bbms.com', '$2y$10$Tx4W5Nk4W5UZ7AvogWq.3u6QdM5j2cJZ4oGf1VzB7kLb0dD5X1vL2'); -- Password: "test"
 
 -- --------------------------------------------------------
 
@@ -56,7 +56,6 @@ CREATE TABLE `blood` (
 --
 
 INSERT INTO `blood` (`id`, `AP`, `AN`, `BP`, `BN`, `ABP`, `ABN`, `OP`, `ON`) VALUES
--- (1, 0, 0, 1, 5, 6, 2, 7, 4);
 (0, 0, 0, 0, 0, 0, 0, 0, 0);
 -- --------------------------------------------------------
 
@@ -78,8 +77,8 @@ CREATE TABLE `donate` (
 -- Dumping data for table `donate`
 --
 
-INSERT INTO `donate` (`id`, `donor_id`, `username`, `disease`, `blood`, `unit`, `status`) VALUES
-(1, 1, 'farheen_18', 'nothing', 'B-', 1, 'approved');
+-- INSERT INTO `donate` (`id`, `donor_id`, `username`, `disease`, `blood`, `unit`, `status`) VALUES
+-- (1, 1, 'farheen_18', 'nothing', 'B-', 1, 'approved');
 
 -- --------------------------------------------------------
 
@@ -100,8 +99,8 @@ CREATE TABLE `donor` (
 -- Dumping data for table `donor`
 --
 
-INSERT INTO `donor` (`id`, `name`, `username`, `email`, `pwd`, `blood`) VALUES
-(1, 'Farheen', 'farheen_18', 'farheen_18@gmail.com', '$2y$10$Kd5ykwrCfU6VIoS/0M5uEey9LgE8331ff8nwAYMnKHk2VLD678OD.', 'B-');
+-- INSERT INTO `donor` (`id`, `name`, `username`, `email`, `pwd`, `blood`) VALUES
+-- (1, 'Farheen', 'farheen_18', 'farheen_18@gmail.com', '$2y$10$Kd5ykwrCfU6VIoS/0M5uEey9LgE8331ff8nwAYMnKHk2VLD678OD.', 'B-');
 
 -- --------------------------------------------------------
 
@@ -122,8 +121,8 @@ CREATE TABLE `patient` (
 -- Dumping data for table `patient`
 --
 
-INSERT INTO `patient` (`id`, `name`, `username`, `email`, `pwd`, `blood`) VALUES
-(1, 'Farheen', 'farheen_18', 'farheen_18@gmail.com', '$2y$10$CKRsoSpPcEk7kGBNVNP7xuND9FhVLqLDdkEGCxkqO3uoghC5zz9Ha', 'B+');
+-- INSERT INTO `patient` (`id`, `name`, `username`, `email`, `pwd`, `blood`) VALUES
+-- (1, 'Farheen', 'farheen_18', 'farheen_18@gmail.com', '$2y$10$CKRsoSpPcEk7kGBNVNP7xuND9FhVLqLDdkEGCxkqO3uoghC5zz9Ha', 'B+');
 
 -- --------------------------------------------------------
 
@@ -145,8 +144,8 @@ CREATE TABLE `request` (
 -- Dumping data for table `request`
 --
 
-INSERT INTO `request` (`id`, `patient_id`, `username`, `reason`, `blood`, `unit`, `status`) VALUES
-(1, 1, 'farheen_18', 'low blood levels', 'B+', 2, 'approved');
+-- INSERT INTO `request` (`id`, `patient_id`, `username`, `reason`, `blood`, `unit`, `status`) VALUES
+-- (1, 1, 'farheen_18', 'low blood levels', 'B+', 2, 'approved');
 
 --
 -- Indexes for dumped tables
@@ -198,7 +197,7 @@ ALTER TABLE `request`
 -- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2; -- Fixed merge conflict
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3; -- Fixed merge conflict
 
 --
 -- AUTO_INCREMENT for table `blood`
@@ -210,25 +209,25 @@ ALTER TABLE `blood`
 -- AUTO_INCREMENT for table `donate`
 --
 ALTER TABLE `donate`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 
 --
 -- AUTO_INCREMENT for table `donor`
 --
 ALTER TABLE `donor`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 
 --
 -- AUTO_INCREMENT for table `patient`
 --
 ALTER TABLE `patient`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 
 --
 -- AUTO_INCREMENT for table `request`
 --
 ALTER TABLE `request`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 
 --
 -- Constraints for dumped tables
