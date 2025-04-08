@@ -55,8 +55,8 @@ CREATE TABLE `blood` (
 -- Dumping data for table `blood`
 --
 
-INSERT INTO `blood` (`id`, `AP`, `AN`, `BP`, `BN`, `ABP`, `ABN`, `OP`, `ON`) VALUES
-(1, 0, 0, 0, 0, 0, 0, 0, 0);
+-- INSERT INTO `blood` (`id`, `AP`, `AN`, `BP`, `BN`, `ABP`, `ABN`, `OP`, `ON`) VALUES
+-- (1, 0, 0, 0, 0, 0, 0, 0, 0);
 -- --------------------------------------------------------
 
 --
@@ -77,8 +77,8 @@ CREATE TABLE `donate` (
 -- Dumping data for table `donate`
 --
 
--- INSERT INTO `donate` (`id`, `donor_id`, `username`, `disease`, `blood`, `unit`, `status`) VALUES
--- (1, 1, 'farheen_18', 'nothing', 'B-', 1, 'approved');
+INSERT INTO `donate` (`id`, `donor_id`, `username`, `disease`, `blood`, `unit`, `status`) VALUES
+ (1, 1, 'farheen_18', 'nothing', 'B-', 1, 'approved');
 
 -- --------------------------------------------------------
 
@@ -99,8 +99,8 @@ CREATE TABLE `donor` (
 -- Dumping data for table `donor`
 --
 
--- INSERT INTO `donor` (`id`, `name`, `username`, `email`, `pwd`, `blood`) VALUES
--- (1, 'Farheen', 'farheen_18', 'farheen_18@gmail.com', '$2y$10$Kd5ykwrCfU6VIoS/0M5uEey9LgE8331ff8nwAYMnKHk2VLD678OD.', 'B-');
+ INSERT INTO `donor` (`id`, `name`, `username`, `email`, `pwd`, `blood`) VALUES
+ (1, 'Farheen', 'farheen_18', 'farheen_18@gmail.com', '$2y$10$Kd5ykwrCfU6VIoS/0M5uEey9LgE8331ff8nwAYMnKHk2VLD678OD.', 'B-');
 
 -- --------------------------------------------------------
 
@@ -121,8 +121,8 @@ CREATE TABLE `patient` (
 -- Dumping data for table `patient`
 --
 
--- INSERT INTO `patient` (`id`, `name`, `username`, `email`, `pwd`, `blood`) VALUES
--- (1, 'Farheen', 'farheen_18', 'farheen_18@gmail.com', '$2y$10$CKRsoSpPcEk7kGBNVNP7xuND9FhVLqLDdkEGCxkqO3uoghC5zz9Ha', 'B+');
+ INSERT INTO `patient` (`id`, `name`, `username`, `email`, `pwd`, `blood`) VALUES
+ (1, 'Farheen', 'farheen_18', 'farheen_18@gmail.com', '$2y$10$CKRsoSpPcEk7kGBNVNP7xuND9FhVLqLDdkEGCxkqO3uoghC5zz9Ha', 'B+');
 
 -- --------------------------------------------------------
 
@@ -144,8 +144,8 @@ CREATE TABLE `request` (
 -- Dumping data for table `request`
 --
 
--- INSERT INTO `request` (`id`, `patient_id`, `username`, `reason`, `blood`, `unit`, `status`) VALUES
--- (1, 1, 'farheen_18', 'low blood levels', 'B+', 2, 'approved');
+ INSERT INTO `request` (`id`, `patient_id`, `username`, `reason`, `blood`, `unit`, `status`) VALUES
+ (1, 1, 'farheen_18', 'low blood levels', 'B+', 2, 'approved');
 
 --
 -- Indexes for dumped tables
